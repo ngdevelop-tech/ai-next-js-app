@@ -4,15 +4,15 @@
  */
 
 import React, { useCallback, useContext, useEffect, useState } from "react";
-import { Document, PasswordResponses, pdfjs } from "react-pdf";
+// import { Document, PasswordResponses, pdfjs } from "react-pdf";
 import PropTypes from "prop-types";
 
 import { GalleryContextData } from "../Gallery/context";
 
 import PageWithObserver from "./components/PageWithObserver";
 
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import "react-pdf/dist/esm/Page/TextLayer.css";
+// import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+// import "react-pdf/dist/esm/Page/TextLayer.css";
 
 // pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 //   'pdfjs-dist/build/pdf.worker.min.mjs',
@@ -99,7 +99,7 @@ function GalleryPreviewPdf({ src = null }) {
     <div className="h-[95vh] overflow-scroll">
       <div className="mb-2 flex flex-col pb-2">
         <div className="mb-2">
-          <Document
+          {/* <Document
             file={src}
             error={`Error: ${documentLoadError}`}
             loading={documentLoadError ?? "Loading PDF..."}
@@ -119,7 +119,7 @@ function GalleryPreviewPdf({ src = null }) {
                 scale={zoomValue}
               />
             ))}
-          </Document>
+          </Document> */}
         </div>
       </div>
     </div>

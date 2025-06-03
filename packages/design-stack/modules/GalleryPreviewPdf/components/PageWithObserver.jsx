@@ -5,7 +5,7 @@
  */
 
 import React, { useCallback, useState } from "react";
-import { Page } from "react-pdf";
+// import { Page } from "react-pdf";
 import PropTypes from "prop-types";
 
 import useIntersectionObserver from "../hooks/useIntersectionObserver";
@@ -34,8 +34,9 @@ function PageWithObserver({
   );
 
   useIntersectionObserver(page, observerConfig, onIntersectionChange);
+  return null;
 
-  return <Page canvasRef={setPage} pageNumber={pageNumber} {...otherProps} />;
+  // return <Page canvasRef={setPage} pageNumber={pageNumber} {...otherProps} />;
 }
 
 export default PageWithObserver;
