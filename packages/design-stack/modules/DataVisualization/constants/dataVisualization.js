@@ -1,0 +1,19 @@
+export const DATA_VISUALIZATION_SIZES = {
+  SMALL: 'small',
+  DEFAULT: 'default',
+  LARGE: 'large',
+  EXTRA_LARGE: 'extra-large',
+  FIT_CONTENT: 'fit-content'
+};
+export const DATA_VISUALIZATION_SIZES_CLASSES = {
+  [DATA_VISUALIZATION_SIZES.SMALL]: 'w-[332px]',
+  [DATA_VISUALIZATION_SIZES.DEFAULT]: 'w-[508px]',
+  [DATA_VISUALIZATION_SIZES.LARGE]: 'w-[684px]',
+  [DATA_VISUALIZATION_SIZES.EXTRA_LARGE]: 'w-[1388px]',
+  [DATA_VISUALIZATION_SIZES.FIT_CONTENT]: 'w-fit'
+};
+
+export const KPI_DATA_DIRECTION = {
+  HORIZONTAL: 'horizontal',
+  VERTICAL: 'vertical'
+};

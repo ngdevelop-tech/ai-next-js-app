@@ -1,0 +1,1 @@
+export declare const effectiveClasses: ({ isCurrent: any, isContained: any, tabIdx: any, shape: any, smallTabsTheme: any, totalTabs: any, isFullWidth: any, isSlideableTabs: any, disableFullWidthBorder: any, }: any) => React.ReactElement;

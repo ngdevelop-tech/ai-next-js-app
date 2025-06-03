@@ -1,0 +1,37 @@
+import React from "react";
+import { twClassNames } from "@/packages/utils/tailwindUtils";
+import PropTypes from "prop-types";
+
+const DSIAccessibility = props => {
+  const { className } = props;
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      fill="none"
+      viewBox="0 0 24 24"
+      {...props}
+      className={twClassNames("icon-neutral-strong", className)}
+    >
+      <path
+        fill="currentColor"
+        d="M20.754 7.017a1.07 1.07 0 0 0-1.273-.768C17.113 6.772 14.47 7 12 7s-5.114-.228-7.481-.751a1.07 1.07 0 0 0-1.273.768 1 1 0 0 0 .737 1.226 36 36 0 0 0 4.103.67c.516.055.914.486.914 1.006V21a1 1 0 1 0 2 0v-4a1 1 0 1 1 2 0v4a1 1 0 1 0 2 0V9.92c0-.52.398-.951.914-1.007a36 36 0 0 0 4.103-.669 1 1 0 0 0 .737-1.226M12 6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2"
+      />
+      <path
+        stroke="currentColor"
+        d="M20.754 7.017a1.07 1.07 0 0 0-1.273-.768C17.113 6.772 14.47 7 12 7s-5.114-.228-7.481-.751a1.07 1.07 0 0 0-1.273.768 1 1 0 0 0 .737 1.226 36 36 0 0 0 4.103.67c.516.055.914.486.914 1.006V21a1 1 0 1 0 2 0v-4a1 1 0 1 1 2 0v4a1 1 0 1 0 2 0V9.92c0-.52.398-.951.914-1.007a36 36 0 0 0 4.103-.669 1 1 0 0 0 .737-1.226ZM12 6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2Z"
+      />
+    </svg>
+  );
+};
+
+DSIAccessibility.propTypes = {
+  className: PropTypes.string,
+};
+
+DSIAccessibility.defaultProps = {
+  className: "",
+};
+
+export default DSIAccessibility;

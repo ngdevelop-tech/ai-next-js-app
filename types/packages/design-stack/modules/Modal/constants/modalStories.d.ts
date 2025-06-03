@@ -1,0 +1,8 @@
+export declare const cancelButton: import("react/jsx-runtime").JSX.Element;
+export declare const deactivateButton: import("react/jsx-runtime").JSX.Element;
+export declare const addNewButton: import("react/jsx-runtime").JSX.Element;
+export declare const submitButton: import("react/jsx-runtime").JSX.Element;
+export declare const centeredModalTemplate: import("react/jsx-runtime").JSX.Element;
+export declare const CONTROLLED_MODAL_TEXT = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius id excepturi quisquam at, repudiandae officiis beatae consequuntur doloribus? Accusamus libero aliquam fugiat dolorem deserunt recusandae quaerat explicabo non ipsa culpa.";
+export declare const LONG_TEXT = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius id excepturi quisquam at, repudiandae officiis beatae consequuntur doloribus? Accusamus libero aliquam fugiat dolorem deserunt recusandae quaerat explicabo non ipsa culpa. repudiandae officiis beatae consequuntur doloribus? Accusamus libero aliquam fugiat dolorem deserunt recusandae quaerat explicabo non ipsa culpa. epudiandae officiis beatae consequuntur doloribus? Accusamus libero aliquam fugiat dolorem deserunt recusandae quaerat explicabo non ipsa culpa. fugiat dolorem deserunt recusandae quaerat explicabo non ipsa culpa.fugiat dolorem deserunt recusandae quaerat explicabo non ipsa culpa.";
+export declare const CONTAINER_SCROLL_MODAL_TEXT = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, eveniet? Iusto necessitatibus repellendus minima corrupti, facilis quibusdam blanditiis enim esse ab nihil eveniet, vitae ea minus perspiciatis modi nemo cum! Similique autem saepe blanditiis Libero ad voluptas delectus!";

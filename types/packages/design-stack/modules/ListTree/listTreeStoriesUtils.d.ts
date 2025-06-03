@@ -1,0 +1,12 @@
+import React from 'react';
+export declare const handleDragEnd: (event: any, setHideDragOverlay: any, setDroppedId: any, setDraggedRowData: any, setTableData: any, items: any) => React.ReactElement;
+export declare const handleDragEndMultiple: (checkedItemsArray: any, event: any, setHideDragOverlay: any, setDroppedId: any, setDraggedRowData: any, setTableData: any, isCheckedItemDragged: any, items: any) => React.ReactElement;
+export declare const handleClickOption: (e: any, setTableData: any, draggedRowData: any, setDroppedId: any, action: any) => React.ReactElement;
+export declare const handleClickOptionMultiple: (e: any, setTableData: any, draggedRowData: any, setDroppedId: any, setCheckedItem: any, action: any) => React.ReactElement;
+export declare const TreeContext: React.Context<unknown>;
+export declare const flattenTree: (tree: any) => React.ReactElement;
+export declare function buildTree(data: any): any;
+export declare function getProjection(items: any, activeId: any, overId: any, dragOffset: any, indentationWidth: any): any;
+export declare function flatten(items: any, parentId: any, any: any, depth: number, any: any): any;
+export declare function removeChildrenOf(items: any, uuids: any): any;
+export declare function cloneDeep(obj: any): any;

@@ -1,0 +1,43 @@
+import React from "react";
+import { twClassNames } from "@/packages/utils/tailwindUtils";
+import PropTypes from "prop-types";
+
+const DSILowCodeAutomation = props => {
+  const { className } = props;
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      fill="none"
+      viewBox="0 0 24 24"
+      {...props}
+      className={twClassNames("icon-neutral-strong", className)}
+    >
+      <path
+        fill="currentColor"
+        d="m14.131 4.151-2.283 15.98-1.98-.283 2.283-15.98z"
+      />
+      <path
+        fill="currentColor"
+        fillRule="evenodd"
+        d="M22.823 19.49a3.6 3.6 0 0 0-.005-.98l1.087-.823a.25.25 0 0 0 .064-.318L22.94 15.64c-.064-.114-.198-.15-.316-.114l-1.28.5a3.8 3.8 0 0 0-.867-.49l-.193-1.323a.26.26 0 0 0-.257-.213h-2.056a.25.25 0 0 0-.252.213l-.193 1.323a4 4 0 0 0-.867.49l-1.28-.5a.26.26 0 0 0-.316.114l-1.022 1.73a.23.23 0 0 0 .064.317l1.087.823a3 3 0 0 0-.048.49c0 .161.01.333.037.49l-1.087.822a.25.25 0 0 0-.064.318l1.028 1.729c.064.115.198.151.316.115l1.28-.5c.267.198.551.364.867.49l.193 1.322a.26.26 0 0 0 .257.214h2.056a.247.247 0 0 0 .252-.214l.192-1.323c.316-.125.605-.291.868-.49l1.28.5a.26.26 0 0 0 .316-.114l1.027-1.73a.237.237 0 0 0-.064-.317zM19 20.874c-1.06 0-1.928-.844-1.928-1.875s.868-1.875 1.928-1.875 1.927.843 1.927 1.875c0 1.03-.867 1.875-1.927 1.875"
+        clipRule="evenodd"
+      />
+      <path
+        fill="currentColor"
+        d="m5.005 12 4.407-3.917-1.329-1.495L1.995 12l6.088 5.411 1.329-1.494zm16.907-.083-5.995-5.33-1.329 1.496 5.995 5.328z"
+      />
+    </svg>
+  );
+};
+
+DSILowCodeAutomation.propTypes = {
+  className: PropTypes.string,
+};
+
+DSILowCodeAutomation.defaultProps = {
+  className: "",
+};
+
+export default DSILowCodeAutomation;
